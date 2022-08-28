@@ -1,0 +1,25 @@
+version: 1
+name: Meme Card
+description: Creating meme post
+author: Squeak-Team <admin@squeak.com>
+squeakUsername: squeak
+placeholder_title: Meme Title
+icon: icon.png
+preview: preview.png
+repository:
+  url: git@github.com:squeak-chat/meme-card.git
+  version: main
+files:
+  html: source/index.html
+  css: source/styles.css
+  javascript: source/index.js
+parameters:
+  - name: top_text
+    type: text
+    placeholder: Top text
+  - name: bottom_text
+    type: text
+    placeholder: Bottom text
+  - name: image_name
+    type: image
+    placeholder: Upload the image you want to meme...
