@@ -7,7 +7,7 @@ placeholder_title: Meme Title
 icon: icon.png
 preview: preview.png
 repository:
-  url: git@github.com:squeak-chat/meme-card.git
+  url: https://github.com/squeak-chat/meme-card.git
   version: main
 files:
   html: source/index.html
